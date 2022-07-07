@@ -1,0 +1,67 @@
+@media (max-width: 1500px){
+    .ferror{
+        display: block;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    input{
+        width: 94%;
+    }
+    .form-child{
+        padding: 9px 35px;
+    }
+}
+@media (max-width: 1100px){
+    .ferror{
+        font-size: 16px;
+    }
+    #heading{
+        font-size: 28px;
+    }
+    input{
+        padding: 6px 10px;
+    }
+}
+@media (max-width: 800px){
+    #heading{
+        font-size: 26px;
+    }
+    .form-child h3{
+        font-size: 17px;
+    }
+}
+@media (max-width: 650px){
+    #heading{
+        font-size: 24px;
+    }
+    .form-child{
+        padding: 12px 27px;
+    }
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 550px) {
+    .ferror{
+        font-size: 14px;
+    }
+    input{
+        padding: 5px 10px;
+    }
+    #heading{
+        font-size: 23px;
+    }
+}
+@media (max-width: 440px){
+    .ferror{
+        font-size: 13px;
+    }
+    #heading{
+        font-size: 22px;
+    }
+}
+@media (max-width: 330px){
+    #heading{
+        font-size: 20px;
+    }
+}
