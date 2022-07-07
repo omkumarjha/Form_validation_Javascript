@@ -31,7 +31,7 @@ function validateForm(){
     }
     
     let phone = document.forms[0]["phoneName"].value
-    if(phone.length > 10){
+    if(phone.length > 10 || phone.length < 10){
         showError("input-phone","* Number must contain only 10 digits")
         validateVar = false;
     }
