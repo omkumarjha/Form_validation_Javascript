@@ -46,6 +46,6 @@ function validateForm(){
     return validateVar
 }
 function isNumeric(text){
-    var hasNumber = /\d/;   
+    const hasNumber = /\d/;   
     return hasNumber.test(text)
 }
