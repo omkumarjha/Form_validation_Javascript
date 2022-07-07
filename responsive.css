@@ -51,6 +51,10 @@
     #heading{
         font-size: 23px;
     }
+    button[type = "submit"]{
+        padding: 4px 21px;
+        font-size: 14px;
+    }
 }
 @media (max-width: 440px){
     .ferror{
