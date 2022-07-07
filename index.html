@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="heading">Form Validation In Javascript</h2>
+    <div class="parent-container">
+        <div class="container">
+            <!-- it means form will submit only when validateForm() will return true -->
+            <form action="/shop/home" name = "form" method="post" onsubmit="return validateForm()"> 
+
+                <!-- Div 1 -->
+                <div class="form-child" id = "fname">
+                    <div id = "name">
+                        <h3>Name</h3>
+                    </div>
+                    <div id="input-name">
+                        <input type="text" name = "textName" placeholder="Enter your Name" required> <span class="ferror"></span>
+                    </div>
+                </div>
+
+                <!-- Div 2 -->
+                <div class="form-child" id = "femail">
+                    <div id = "email">
+                        <h3>Email</h3>
+                    </div>
+                    <div id="input-email">
+                        <input type="email" name = "emailName" placeholder="Enter your Email" required> <span class="ferror"></span>
+                    </div>
+                </div>
+
+                <!-- Div 3 -->
+                <div class="form-child" id = "fphone">
+                    <div id = "phone">
+                        <h3>Phone</h3>
+                    </div>
+                    <div id="input-phone">
+                        <input type="number" name = "phoneName" placeholder="Enter your phone Number" required> <span class="ferror"></span>
+                    </div>
+                </div>
+
+                <!-- Div 4 -->
+                <div class="form-child" id = "fpass">
+                    <div id = "pass">
+                        <h3>Password</h3>
+                    </div>
+                    <div id="input-pass">
+                        <input type="password" name = "passName" placeholder="Enter Password" required> <span class="ferror"></span>
+                    </div>
+                </div>
+
+                <!-- Div 5 -->
+                <div class="form-child" id = "f-confirm-pass">
+                    <div id = "confirm-pass">
+                        <h3>Confirm Password</h3>
+                    </div>
+                    <div id="input-confirm-pass">
+                        <input type="password" name = "confirmPassName" placeholder="Confirm password" required> <span class="ferror"></span>
+                    </div>
+                </div>
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
